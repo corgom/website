@@ -1,0 +1,103 @@
+body {
+    background-color: #ecf0f1;
+    color: #546e7a;
+    margin: 0;
+    padding: 0;
+}
+
+/*header, nav, section, aside, footer {
+    border: 1px solid red;
+}*/
+
+
+header {
+    width: 950px;
+}
+
+nav {
+    width: 950px;
+    background-color: #546e7a;
+}
+
+nav a {
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #ef5350;
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+section {
+    width: 650px;
+    float: left;
+    padding: 20px;
+}
+
+aside {
+    width: 300px;
+    float: left;
+    background-image: url("../imgs/aside-background.png");
+}
+
+footer {
+    width: 950px;
+    clear: both;
+}
+
+
+#header-index {
+    background-image: url("../imgs/libromante-250w.png"), url("../imgs/index-background-interlayer.png"), url("../imgs/index-header-2.jpg");
+    background-size: 250px, auto, 950px;
+    background-position: center center, top left;
+    background-repeat: no-repeat, repeat, no-repeat;
+    background-color: #cccccc;
+    height: 600px;
+    margin: 0;
+    text-indent: -9999px;
+}
+
+nav {
+    text-align: right;
+}
+
+nav ul {
+    margin: 0;
+    padding: 5px 0;
+}
+
+nav ul li {
+    display: inline-block;
+    /*border: 1px solid red;*/
+}
+
+h2, h3 {
+    font-family: Georgia, serif;
+}
+
+article h2 {
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+article img {
+    display: inline-block;
+    float: left;
+    margin-right: 10px;
+}
+
+article {
+    clear: left;
+    margin-top: 30px;
+    display: inline-block;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+p {
+    font-family: Arial, sans-serif;
+}

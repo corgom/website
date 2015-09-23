@@ -14,6 +14,14 @@ proyecto website escuela
 * contacto.html
 * noticias.html
 
+## Imagenes
+
+En carpeta imgs/\*.\*
+
+## Stylesheet
+
+Un tema: css/tema_1.css
+
 # Fonts
 
 * Header font: Georgia, serif.

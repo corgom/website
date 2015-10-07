@@ -1,91 +1,15 @@
+/******************************************************
+    GENERALES
+*******************************************************/
+
+header, nav, section, aside, footer, h1, h2, h3 {
+    border: 0px solid red;
+}
+
 body {
-    background-color: #ecf0f1;
-    color: #546e7a;
     margin: 0;
     padding: 0;
-}
-
-/*header, nav, section, aside, footer {
-    border: 1px solid red;
-}*/
-
-
-header {
-    width: 950px;
-}
-
-nav {
-    width: 950px;
     background-color: #546e7a;
-}
-
-nav a {
-    color: #ecf0f1;
-    text-decoration: none;
-}
-
-nav a:hover {
-    background-color: #ef5350;
-    color: #ecf0f1;
-    text-decoration: none;
-}
-
-section {
-    width: 650px;
-    float: left;
-    padding: 20px;
-}
-
-aside {
-    width: 300px;
-    float: left;
-    background-image: url("../imgs/aside-background.png");
-}
-
-footer {
-    width: 950px;
-    clear: both;
-}
-
-
-#header-index {
-    background-image: url("../imgs/libromante-250w.png"), url("../imgs/index-background-interlayer.png"), url("../imgs/index-header-2.jpg");
-    background-size: 250px, auto, 950px;
-    background-position: center center, top left;
-    background-repeat: no-repeat, repeat, no-repeat;
-    background-color: #cccccc;
-    height: 600px;
-    margin: 0;
-    text-indent: -9999px;
-}
-
-nav {
-    text-align: right;
-}
-
-nav ul {
-    margin: 0;
-    padding: 5px 0;
-}
-
-nav ul li {
-    display: inline-block;
-    /*border: 1px solid red;*/
-}
-
-h2, h3 {
-    font-family: Georgia, serif;
-}
-
-article h2 {
-    font-size: 2em;
-    text-transform: uppercase;
-}
-
-article img {
-    display: inline-block;
-    float: left;
-    margin-right: 10px;
 }
 
 article {
@@ -94,10 +18,240 @@ article {
     display: inline-block;
 }
 
-h3 {
-    font-size: 1.5em;
+article img {
+    display: inline-block;
+    float: left;
+    margin-right: 10px;
 }
 
 p {
     font-family: Verdana, sans-serif;
+}
+
+strong {
+    color: #ef5350;
+}
+
+/******************************************************
+    INDEX.html
+*******************************************************/
+
+.index body {
+    background-color: black;
+    color: #546e7a;
+}
+
+.index header {
+    width: 950px;
+    margin-top: -45px;
+    /*z-index: -1;*/
+}
+
+.index header h1 {
+
+    background-image: url("../imgs/book-shelf.png"),
+                      url("../imgs/libromante-450w.png"),
+                      url("../imgs/gradiente.png"),
+                      url("../imgs/index-background-interlayer.png"),
+                      url("../imgs/index-header-3.jpg");
+    background-size: 500px,
+                     450px,
+                     auto,
+                     auto,
+                     950px;
+    background-position: center 35%,
+                         center 65%,
+                         center center,
+                         top left;
+    background-repeat: repeat-x,
+                       no-repeat,
+                       no-repeat,
+                       repeat,
+                       no-repeat;
+    background-color: #cccccc;
+    height: 600px;
+    margin: 0;
+    text-indent: -9999px;
+}
+
+.index nav {
+    /*z-index: 1;*/
+    width: 950px;
+    background-color: #546e7a;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+    /*border: 1px solid red;*/
+}
+
+.index nav ul {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.index nav ul li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+
+.index nav a {
+    font-family: 'Bitter', serif;
+    color: #ecf0f1;
+    text-decoration: none;
+    font-size: 1.3em;
+    margin: 0;
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.index nav a:hover {
+    background-color: #ef5350;
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+.index section {
+    width: 910px;
+    float: none;
+    padding: 20px 20px 80px 20px;
+    background-color: #ecf0f1;
+}
+
+.index aside {
+    width: 910px;
+    float: none;
+    background-image: url("../imgs/repper_pattern.jpg");
+    padding: 40px 20px;
+}
+
+.index aside ul {
+    padding: 0;
+    margin: 0;
+}
+
+.index aside li {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    margin-right: 20px;
+    /*border: 1px solid #ef5350;*/
+}
+
+.index footer {
+    width: 910px;
+    clear: both;
+    color: #ef5350;
+    background-color: #ecf0f1;
+    padding: 20px;
+}
+
+
+/******************************************************
+    secciones
+*******************************************************/
+
+.seccion nav
+{
+    width: 950px;
+    background-color: #b71c1c;
+    padding: 0;
+    margin: 0;
+}
+
+.seccion nav ul
+{
+    text-align: right;
+    margin: 0;
+    padding: 0;
+}
+
+.seccion nav li {
+    display: inline-block;
+    padding: 6px 12px;
+    margin: 0;
+}
+
+.seccion nav li a {
+    font-family: 'Bitter', serif;
+    color: #ecf0f1;
+    text-decoration: none;
+    font-size: 1.1em;
+    padding: 6px 12px;
+}
+
+.seccion nav li a:hover {
+    background-color: #ef5350;
+    color: #ecf0f1;
+    /*padding: 6px 12px;*/
+}
+
+.seccion header {
+    width: 950px;
+}
+
+.seccion section {
+    width: 610px;
+    float: left;
+    padding: 0 20px;
+    margin: 0;
+    background-color: #ecf0f1;
+}
+
+.seccion aside {
+    width: 290px;
+    float: left;
+    background-color: #ecf0f1;
+    background-image: url("../imgs/aside-background.png");
+    padding: 0 5px;
+    margin: 0;
+}
+
+.seccion footer {
+    width: 910px;
+    clear: left;
+    margin: 0;
+    padding: 20px;
+    background-color: #ecf0f1;
+}
+
+
+.seccion h1, h2, h3 {
+    /*font-family: Georgia, serif;*/
+    font-family: 'Bitter', serif;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    /*color: #ef5350;*/
+}
+
+.seccion h1 {
+    width: 930px;
+    font-size: 3em;
+    font-family: 'Oleo Script', cursive;
+    color: #fdd835;
+    background-image: url("../imgs/libromante-250w.png"), url("../imgs/index-background-interlayer.png"), url("../imgs/gradiente.png");
+    background-size: 20%, auto, auto;
+    background-position: 16px 5px, center center, center center;
+    background-repeat: no-repeat, repeat, repeat;
+    padding-top: 75px;
+    padding-left: 20px;
+    margin-top: -40px;
+}
+
+.seccion article h2 {
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+
+.seccion h2 {
+    margin-bottom: .2em;
+}
+
+.seccion h3 {
+    font-size: 1.5em;
+    margin-top: 0;
 }

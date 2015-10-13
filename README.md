@@ -26,3 +26,6 @@ Un tema: css/tema_1.css
 
 * Header font: Georgia, serif.
 * Other/general font: Verdana, sans-serif
+* Google fonts:
+	* https://fonts.googleapis.com/css?family=Bitter
+	* https://fonts.googleapis.com/css?family=Oleo+Script

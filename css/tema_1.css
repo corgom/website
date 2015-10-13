@@ -32,6 +32,28 @@ strong {
     color: #ef5350;
 }
 
+/*
+  ========================================
+  Clearfix
+  ========================================
+  Tomado de: http://learn.shayhowe.com/html-css/positioning-content/
+*/
+
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+  width: 950px;
+  background-color: #ecf0f1; /* color de fondo igual a SECTION */
+}
+
 /******************************************************
     INDEX.html
 *******************************************************/
@@ -254,4 +276,33 @@ strong {
 .seccion h3 {
     font-size: 1.5em;
     margin-top: 0;
+}
+
+form.contacto label {
+    font-family: Verdana, sans-serif;
+    font-size: .8em;
+    width: 6em;
+    display: inline-block;
+    text-align: right;
+    vertical-align: top;
+    margin-bottom: 20px;
+    padding: 5px 3px;
+}
+
+form.contacto input, form.contacto textarea {
+    width: 250px;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+}
+
+form.contacto textarea {
+    height: 50px;
+}
+
+form.contacto button {
+    font-family: Verdana, sans-serif;
+    font-size: .8em;
+    margin-left: 6.6em;
+    display: inline-block;
+    width: 6em;
 }
